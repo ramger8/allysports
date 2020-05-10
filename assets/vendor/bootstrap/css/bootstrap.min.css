@@ -7,8 +7,8 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 .btn-grn { 
     color: #ffffff; 
-    background-color: #22D8B6; 
-    border-color: #22D8B6; 
+    background-color: #0d5ab6; 
+    border-color: #0d5ab6; 
   } 
    
   .btn-grn:hover, 
@@ -17,8 +17,8 @@
   .btn-grn.active, 
   .open .dropdown-toggle.btn-grn { 
     color: #ffffff; 
-    background-color: #277378; 
-    border-color: #22D8B6; 
+    background-color: #093e7f; 
+    border-color: #093e7f; 
   } 
    
   .btn-grn:active, 
