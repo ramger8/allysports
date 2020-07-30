@@ -31,7 +31,6 @@ btn-lg {
   
 }
 
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -353,7 +352,7 @@ btn-lg {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, 255);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -380,9 +379,9 @@ btn-lg {
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
   margin-bottom: 35px;
-  font-size: 24px;
+  font-size: 32px;
   text-shadow: 2px 2px #1f1f1f;
 }
 
@@ -479,15 +478,15 @@ section {
 }
 
 .about .icon-box h4 {
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 28px;
+  font-weight: 600;
   margin-left: 60px;
   color: #21413c;
 }
 
 .about .icon-box p {
-  font-size: 15px;
-  color: #848484;
+  font-size: 18px;
+  color: #4d4d4d;
   margin-left: 60px;
 }
 
@@ -1350,4 +1349,17 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+@media (max-aspect-ratio: 12/9) {
+  .carousel-item{
+    min-height: 100vh;
+  }
+  #hero .container{
+    bottom: 53%;
+    left: 1%;
+  }
+  .w-100{
+    width:138%!important;
+  }
 }
